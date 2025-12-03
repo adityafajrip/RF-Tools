@@ -1,0 +1,40 @@
+{
+    "name": "redfinger-automation-bot",
+    "version": "1.2.0",
+    "description": "Bot otomatisasi Redfinger canggih untuk auto war, redeem, dan manajemen akun.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint ."
+    },
+    "keywords": [
+        "redfinger",
+        "redfinger-bot",
+        "redfinger-automation",
+        "war-redfinger",
+        "redeem-redfinger",
+        "redfinger-script",
+        "cloud-phone-automation",
+        "android-emulator-bot",
+        "auto-clicker",
+        "game-automation",
+        "rf-bot",
+        "rf-war",
+        "rf-redeem",
+        "rf-automation",
+        "bot-rf",
+        "war-rf",
+        "redeem-rf",
+        "rf-script"
+    ],
+    "author": "RedAuto Team",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.2",
+        "chalk": "^4.1.2",
+        "dotenv": "^16.3.1",
+        "puppeteer": "^21.5.0",
+        "winston": "^3.11.0"
+    }
+}

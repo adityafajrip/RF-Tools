@@ -1,0 +1,18 @@
+{
+    "apiKey": "YOUR_API_KEY_FROM_REDAUTO_MY_ID",
+    "deviceId": "YOUR_DEVICE_ID",
+    "logLevel": "info",
+    "autoRestart": true,
+    "proxy": {
+        "enabled": true,
+        "host": "192.168.1.1",
+        "port": 8080,
+        "username": "user",
+        "password": "pass"
+    },
+    "features": {
+        "autoWar": true,
+        "autoRedeem": true,
+        "dailyCheckIn": true
+    }
+}
