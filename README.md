@@ -29,34 +29,93 @@ Versi web di [redauto.my.id](https://www.redauto.my.id) punya fitur lengkap yang
 - **Fitur Renewal**: Perpanjang durasi device kamu gampang banget, tinggal klik-klik dari web.
 - **Notifikasi Real-time**: Dapet kabar langsung via Telegram/Discord pas bot berhasil dapet server.
 
-## 📦 Cara Install (Versi Script Manual)
+## 🔧 Cara Mendapatkan User ID & Session ID
 
-Kalo kamu emang hobi ngoding atau mau jalanin script sendiri (ribet dikit gapapa ya):
+Untuk menggunakan bot di [redauto.my.id](https://www.redauto.my.id), kamu perlu **User ID** dan **Session ID** dari akun Redfinger kamu.
 
-1. Clone repository:
-   ```bash
-   git clone https://github.com/username-anda/redfinger-automation-bot.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Atur settingan kamu di `config.json`.
+### 📱 Untuk Pengguna Mobile
 
-## 🔧 Cara Pake
+#### Android (Menggunakan Eruda)
+
+1. **Download Eruda**  
+   Install aplikasi **Eruda – Browser Console** dari [Play Store](https://play.google.com/store/apps/details?id=com.eruda)
+
+2. **Buka Redfinger**  
+   Buka aplikasi Eruda, lalu dari situ buka website Redfinger
+
+3. **Login Akun**  
+   Login dengan akun Redfinger kamu
+
+4. **Buka Console**  
+   Tap floating icon gerigi (⚙️) yang muncul di layar, lalu pilih tab **Console**
+
+5. **Jalankan Script**  
+   Paste script di bawah ini ke Console, lalu tekan Enter
+
+#### iPhone (Menggunakan Web Inspector)
+
+1. **Download App**  
+   Install aplikasi **Web Inspector** dari [App Store](https://apps.apple.com/us/app/web-inspector/id1584825745)
+
+2. **Konfigurasi Extension** ⚠️ **PENTING!**  
+   Buka **Settings → Safari → Extensions → Web Inspector**, lalu aktifkan:
+   - ✓ Toggle **Web Inspector** (di bagian paling atas)
+   - ✓ **Allow Extension**
+   - ✓ **Allow in Private Browsing**
+   - ✓ Pilih **Allow on All Websites** (bukan "Ask" atau "Deny")
+
+3. **Buka Safari**  
+   Buka Safari dan login ke website Redfinger
+
+4. **Buka Inspector**  
+   Tekan ikon puzzle (🧩) untuk membuka ekstensi, lalu pilih **Web Inspector**
+
+5. **Buka Console**  
+   Pindah ke tab **Console**, lalu paste scriptnya
+
+### 💻 Untuk Pengguna Desktop
+
+1. **Buka Website Redfinger**  
+   Kunjungi [https://www.redfinger.com](https://www.redfinger.com) dan login
+
+2. **Buka Developer Tools**  
+   - **Windows/Linux**: Tekan `F12` atau `Ctrl + Shift + I`
+   - **Mac**: Tekan `Cmd + Option + I`
+
+3. **Buka Tab Console**  
+   Klik tab **Console** di Developer Tools
+
+4. **Jalankan Script**  
+   Copy-paste script di bawah ini ke Console, lalu tekan Enter
+
+### 📋 Script Console
 
 ```javascript
-const RedfingerBot = require('./src/bot');
+(() => {
+  const sessionId = localStorage.getItem("session_id");
+  const userId = localStorage.getItem("user_id");
 
-// Inisialisasi bot
-const bot = new RedfingerBot({
-    apiKey: 'API_KEY_KAMU',
-    deviceId: 'DEVICE_ID_KAMU'
-});
+  console.log("%c━━━━━ Redfinger Account Info ━━━━━", "color:#3b82f6;font-weight:bold;");
 
-// Gaspol
-bot.start();
+  if (sessionId && userId) {
+    console.log("%csession_id: %c" + sessionId, "color:#888;", "color:#10b981;font-weight:bold;");
+    console.log("%cuser_id: %c" + userId, "color:#888;", "color:#3b82f6;font-weight:bold;");
+  } else {
+    console.log("%cNo session found. Please login first.", "color:#f59e0b;");
+  }
+
+  console.log("%c━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", "color:#3b82f6;");
+})();
 ```
+
+### ✅ Hasil
+
+Script akan menampilkan:
+- **session_id**: Token sesi kamu
+- **user_id**: ID pengguna kamu
+
+Copy kedua nilai tersebut dan paste di website [redauto.my.id](https://www.redauto.my.id) untuk mulai menggunakan bot!
+
 
 ## ❓ FAQ (Yang Sering Ditanyain)
 
