@@ -1,6 +1,6 @@
 # Bot Otomatisasi Redfinger 🤖
 
-![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![Platform](https://img.shields.io/badge/platform-Redfinger%20Cloud%20Phone-orange.svg)
@@ -14,8 +14,8 @@
 > Di website ini, bot jalan otomatis di server kami **GRATIS**. Cukup setting sekali, bot akan **running terus menerus** siang malam sampai kamu berhasil mendapatkan cloud phone (Redeem/War) yang kamu mau. Hemat kuota dan baterai!
 
 > [!WARNING]
-> **STATUS: MASIH TAHAP TESTING (BETA)**
-> Website ini masih dalam masa uji coba. Kalo ada fitur yang error atau gak jalan, langsung laporin aja via Telegram: [**t.me/botwarrf**](https://t.me/botwarrf).
+> **STATUS: WORKING 95% 🟢**
+> Website ini masih dalam masa uji coba. Kalo ada fitur yang error atau behavior yang tidak sesuai setelah update ini, silakan lapor langsung ke channel telegram: [**t.me/botwarrf**](https://t.me/botwarrf).
 
 > [!TIP]
 > **Gabung Telegram kita buat update & curhat:** [**t.me/botwarrf**](https://t.me/botwarrf)
@@ -24,10 +24,11 @@
 
 Versi web di [redauto.my.id](https://www.redauto.my.id) punya fitur lengkap yang gampang banget dipake:
 
-- **Auto Redeem & War 24/7**: Bot jalan di server kita. Kamu tinggal tidur, biarin bot yang kerja keras bagai kuda sampe dapet server.
-- **List Device Aktif**: Cek semua device Redfinger kamu yang lagi aktif, rapi banget tampilannya.
+- **Auto Redeem & War 24/7**: Bot jalan di server kita. Sekarang support **Multi OS**, **Unlock All Servers**, dan opsi **Cek Redeem Code**. Masalah "goods not support auto renew" juga sudah fix!
+- **[BARU] Upgrade & Replace Device**: Fitur eksperimental buat upgrade spesifikasi device (misal VIP A10 -> KVIP A12) atau ganti server device sesuka hati.
+- **List Device Aktif**: Cek semua device Redfinger kamu yang lagi aktif. Sekarang **semua tipe device** (termasuk non-VIP) sudah tampil rapi!
 - **Fitur Renewal**: Perpanjang durasi device kamu gampang banget, tinggal klik-klik dari web.
-- **Notifikasi Real-time**: Dapet kabar langsung via Telegram/Discord pas bot berhasil dapet server.
+- **Notifikasi Real-time**: Dapet kabar langsung via Telegram/Discord pas bot berhasil dapet server, lengkap dengan **3 log aktivitas terakhir**.
 
 ## 🔧 Cara Mendapatkan User ID & Session ID
 
