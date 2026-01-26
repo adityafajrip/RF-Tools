@@ -124,7 +124,7 @@ Copy kedua nilai tersebut dan paste di website [redauto.my.id](https://www.redau
 A: Yoi, fitur auto redeem/war di [redauto.my.id](https://www.redauto.my.id) jalan di server kita gratis tis.
 
 **Q: HP harus nyala terus gak?**
-A: **Enggak perlu!** Karena bot jalan di server kita, HP/PC kamu matiin aja gapapa. Bot tetep kerja lembur bagai kuda.
+A: **Ga perlu!** Karena bot jalan di server kita, HP/PC kamu matiin aja gapapa. Bot tetep kerja lembur bagai kuda.
 
 **Q: Bisa liat device aku gak?**
 A: Bisa dong, ada menu buat liat list device yang aktif sekalian bisa renewal juga.
