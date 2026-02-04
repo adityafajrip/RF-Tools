@@ -18,7 +18,7 @@
 > Website ini masih dalam masa uji coba. Kalo ada fitur yang error atau behavior yang tidak sesuai setelah update ini, silakan lapor langsung ke channel telegram: [**t.me/botwarrf**](https://t.me/botwarrf).
 
 > [!TIP]
-> **Gabung Telegram kita buat update & curhat:** [**t.me/botwarrf**](https://t.me/botwarrf)
+> **Gabung Telegram kita buat update:** [**t.me/botwarrf**](https://t.me/botwarrf)
 
 ## 🚀 Fitur Utama
 
